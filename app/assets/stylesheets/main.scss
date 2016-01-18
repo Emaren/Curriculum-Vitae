@@ -1,0 +1,223 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+
+  letter-spacing: 2px;
+}
+
+.overlay {
+  height: 1250px;
+  width: 900px;
+  top: 10%;
+  left: 19%;
+  bottom: 2%;
+  margin: 10px 0px 100px 0px;
+  position: absolute;
+  border-radius: 20px;
+  background-image: url("dt.png");
+  box-shadow: 10px 10px 10px 2px;
+  z-index: -50;
+}
+
+.title {
+  top: 100px;
+  text-align: center;
+  left: 23.5%;
+  margin: auto;
+  position: absolute;
+  font-size: 5em;
+  text-shadow: 2px 2px;
+  background: -webkit-linear-gradient(rgb(164, 164, 164), rgb(55, 55, 55));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 10;
+}
+
+.name {
+  top: 230px;
+  left: 22%;
+  right: 22%;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(164, 160, 160);
+  z-index: 10;
+}
+
+.contact {
+  text-indent: 30px;
+  top: 280px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  text-align: center;
+
+  position: absolute;
+  word-wrap: break-word;
+  margin: auto;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163);
+  z-index: 10;
+}
+
+.profile {
+  top: 350px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(110, 108, 108);
+  z-index: 10;
+}
+
+.profile-p {
+  text-indent: 30px;
+  top: 395px;
+  left: 25%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163);
+  z-index: 10;
+}
+
+.skills {
+  top: 580px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(110, 108, 108);
+  z-index: 10;
+}
+
+.skills-p {
+  top: 620px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163)
+;
+  line-height: 30px;
+  z-index: 10;
+}
+
+table {
+  text-align: center;
+}
+
+.experience {
+  top: 830px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+
+  -webkit-text-fill-color: rgb(110, 108, 108);
+  z-index: 10;
+}
+
+.experience-p-h {
+  top: 880px;
+  left: 25%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+
+  -webkit-text-fill-color: rgb(163, 163, 163)
+;
+  z-index: 10;
+}
+
+.experience-p {
+  text-indent: 40px;
+  top: 900px;
+  left: 25%;
+  right: 22%;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+
+  -webkit-text-fill-color: rgb(163, 163, 163)
+;
+  z-index: 10;
+}
+
+.education {
+  top: 1005px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+
+  -webkit-text-fill-color: rgb(110, 108, 108);
+  z-index: 10;
+}
+
+.education-p {
+  top: 1055px;
+  left: 25%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163)
+;
+  z-index: 10;
+}
+
+.references {
+  top: 1165px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(110, 108, 108);
+  z-index: 10;
+}
+
+.references-p {
+  top: 1210px;
+  left: 25%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163);
+  z-index: 10;
+}
+h4 {
+  top: 250px;
+  left: 22%;
+  right: 22%;
+  margin: auto;
+  position: absolute;
+  word-wrap: break-word;
+  text-shadow: 2px 2px;
+  -webkit-text-fill-color: rgb(163, 163, 163);
+  z-index: 10;
+}
